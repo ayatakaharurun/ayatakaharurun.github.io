@@ -135,6 +135,10 @@ figcaption {
 	text-align: center;
 }
 
+#container_third img:hover {
+	opacity: 0.5;
+}
+
 #container_third p {
 	line-height: 1;
 }
