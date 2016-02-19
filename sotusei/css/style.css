@@ -1,0 +1,353 @@
+﻿@charset "UTF-8";
+/* このCSSにページ別のスタイルを記述する */
+
+/* TOPページ ここから */
+
+#main h1 {
+	font-size: 150%;
+	margin: 30px 0 15px 0;
+	border-bottom: 1.5px solid #ffc107;
+}
+
+#main h2 {
+	font-size: 110%;
+	margin-bottom: 15px;
+}
+
+/* #Index2 #main #masthead {
+	background: url(../rays_images/title_top_rays.jpg) no-repeat left bottom;
+	background-size: cover;
+	height: 370px;
+	padding-top: 8.75%;
+	margin-bottom: 16px;
+	overflow: hidden;
+} */
+
+#Index #main #mokuji {
+	padding: 0 1em 1em;
+}
+
+#Index #main #mokuji p:not(:last-child):before {
+	color: #00f;
+	content: "●";
+	font-size: 1.5em;
+	padding-right: 0.5em;
+}
+
+#Index #main #mokuji a {
+	display: inline-block;
+	width: 6em;
+}
+
+#Index #main #mokuji a:hover {
+	text-decoration: underline;
+}
+
+#Index #main #mokuji #update {
+	text-align: right;
+	font-size: 0.875em;
+}
+
+.text_box:last-child {
+	margin-bottom: 30px;
+}
+
+#graphic {
+	width: 959px;
+	height: 600px;
+	margin: 0 auto 30px auto;
+}
+#graphic ul {
+	list-style: none;
+	padding-left: 0;
+}
+#graphic ul li {
+	display: none;
+	position: absolute;
+}
+#graphic ul li.now {
+	display: block;
+}
+
+/* TOPページ ここまで */
+
+
+/* teamページ　ここから */
+
+#Team table {
+	border-collapse: collapse;
+	border: solid 1px;
+}
+
+#Team table tbody tr th {
+	/* font-size: 100%; */
+	width: 130px;
+	padding: 10px;
+	border: dotted 1px;
+	background-color: #ffd351;
+}
+
+#Team table tbody tr td {
+	/* font-size: 120%; */
+	width: 620px;
+	padding: 10px;
+	border: dotted 1px;
+	background-color: #fff;
+}
+
+#naiyo table tr th:first-child {
+	width: 200px;
+}
+
+#naiyo table tr th:nth-child(2) {
+	width: 300px;
+}
+
+#naiyo table tr td:first-child {
+	width: 180px;
+}
+
+#naiyo table tr td:nth-child(2) {
+	width: 180px;
+}
+
+#tizu_box p {
+	margin-bottom: 30px;
+}
+
+/* teamページ　ここまで */
+
+
+
+/* senshuページ　ここから */
+
+#Senshu main {
+	overflow: hidden;
+}
+
+[id^="shoukai"] table {
+  display: block;
+     float: left;
+	width: 315px;
+/*	border-spacing: 0;*/
+	border:1px solid #aaa;
+	border-radius: 10px;
+	margin: 10px 50px 10px 0px;
+}
+
+[id^="shoukai"] table th {
+  width: 315px;
+	color: #000;
+	padding: 8px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	background: #ffd351;
+	font-weight: bold;
+}
+
+[id^="shoukai"] table tr td {
+  width: 100%;
+	padding: 8px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+      background: #fff;
+	text-align: center;
+	}
+
+
+
+[id^="shoukai"] h2 {
+  clear: both;
+margin-top: 30px;
+}
+
+
+/* 大会成績ページ  ここから */
+
+#Seiseki table {
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  border: solid 1px;
+}
+
+#Seiseki table tbody tr th {
+  /* font-size: 100%; */
+  width: 130px;
+  padding: 10px;
+  border: dotted 1px;
+  background-color: #ffd351;
+}
+
+#Seiseki table tbody tr td {
+  /* font-size: 120%; */
+  width: 620px;
+  text-align: center;
+  padding: 10px;
+  border: dotted 1px;
+  background-color: #fff;
+}
+
+#naiyo table tr th:first-child {
+  width: 200px;
+}
+
+#naiyo table tr th:nth-child(2) {
+  width: 300px;
+}
+
+#naiyo table tr td:first-child {
+  width: 180px;
+}
+
+#naiyo table tr td:nth-child(2) {
+  width: 180px;
+}
+
+
+
+/* 試合結果ページ ここから */
+
+#Siai table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #dcdcdc ;
+  /*border-collapse: collapse;*/
+  border: solid 1px;
+}
+
+#Siai table caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#Siai table tr th {
+  padding: 10px;
+  /*border: 1px solid;*/
+  text-align: left;
+}
+
+#Siai table tr th:first-child {
+  width: 200px;
+}
+
+#Siai table tr td {
+  padding: 5px;
+  width: 70px;
+  /*border: 2px solid;*/
+}
+
+#Siai .tokutenban {
+  font-weight: bold;
+  background: #61ab00;
+  color: white;
+}
+
+#Siai .tokutenban th {
+  border: 1px solid #000;
+}
+
+#Siai .tokutenban td {
+  border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+/* イベントリストの記述パターン2
+#Saiji #main #event #eventlist li {
+  display: inline-block;
+}
+
+#Saiji #main #event #eventlist li:not(:last-child) {
+  margin-right: 1em;
+}
+*/
+
+/* イベントリストの記述パターン3
+#Saiji #main #event #eventlist li {
+  display: inline-block;
+}
+
+#Saiji #main #event #eventlist li:nth-child(-n+3) {
+  margin-right: 1em;
+}
+*/
+
+
+
+
+
+/* アクセス */
+#Access #main #masthead {
+  background: url(../images/title_aku.gif) no-repeat left bottom;
+  background-size: cover;
+  height: 0;
+  padding-top:  8.125%;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+#Access #map {
+  text-align: center;
+}
+
+
+
+/* お問い合わせ */
+#Contact #main #masthead {
+	background: url(../images/title_toi.gif) no-repeat left bottom;
+	background-size: cover;
+	height: 0;
+	padding-top: 8.125%;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+
+#Contact form p {
+	margin-bottom: 1em;
+}
+
+#Contact form p:nth-last-child(2) {
+	margin-bottom: 0.5em;
+}
+
+ #Contact input {
+	margin: 0 0.5em 0 0; 
+}
+
+#Contact input[type="text"] {
+	width: 200px;
+}
+
+#Contact input[type="email"] {
+	width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
