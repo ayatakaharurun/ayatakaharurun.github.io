@@ -10,7 +10,7 @@ body {
   font-size: 87.5%;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   line-height: 1.6;
-  	background-image:url(../rays_images/back2.png),url(../rays_images/haikei.png)
+  	background-image:url(../rays_images/back2.png),url(../rays_images/haikei.png);
   	background-position: center top,center top;
   	background-repeat: repeat-y,repeat-x repeat-y;
   	background-attachment: fixed,scroll;
